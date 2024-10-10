@@ -1,0 +1,146 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Layout */
+body {
+    font-family: Arial, sans-serif;
+    
+    line-height: 1.6;
+     background-image: url(image8.jpg.jpg);
+}
+
+header {
+    background-image:url(image8.jpg.jpg);
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #ff6347;
+}
+
+/* Sections */
+.section {
+    display: none;
+    padding: 20px;
+    text-align: center;
+    background-image: url(image8.jpg.jpg);
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.section.active {
+    display: block;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.gallery img {
+    width: 200px;
+    height: auto;
+    border-radius: 100px;
+    box-shadow: 0 4px 8px rgba(2, 6, 218, 0.752);
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* Footer styling */
+footer {
+    background-image:url(image8.jpg.jpg);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.Social-icon {
+    color: #171ab7;
+    transition: color 0.2;
+
+}
+
+.Social-icon :hover {
+    color: darkblue;
+
+}
+
+
+/* Style for the rectangle around the text */
+.text-box {
+    width: auto;
+    padding: 20px;
+    border: 2px solid #000;
+    border-radius: 20px;
+    background-image:url(image8.jpg.jpg);
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    text-align: match-parent;
+    margin: 50px auto;
+}
+
+/* form style */
+.comment-form {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-image: url(image8.jpg.jpg);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+h2 {
+    text-align: center;
+}
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #171ab7;
+    border-radius: 5px;
+}
+input[type="submit"] {
+    background-image:url(image8.jpg.jpg);
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+input[type="submit"]:hover {
+    background-image: url(image8.jpg.jpg);
+}
+
+.red-text {
+    color: red;
+}
+.blue-text {
+    color: blue;
+}
+.white-text {
+    color: rgb(253, 255, 253);
+}

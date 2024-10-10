@@ -1,0 +1,118 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Personal Website</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <h2> Welcome to my Website </h2> 
+            <nav>
+                <ul>
+                    <li><a href="#home" onclick="showSection('home')">Home</a></li>
+                    <li><a href="#gallery" onclick="showSection('gallery')">Gallery</a></li>
+                    <li><a href="#about" onclick="showSection('about')">About Me</a></li>
+                    <li><a href="#form" onclick="showSection('form')">Comment</a></li>
+                </ul>
+            </nav>
+        </header>
+    
+        <main>
+            <!-- Home Section -->
+            <section id="home" class="section active">
+                <div  class="text-box"> 
+                <h1 class="white-text"> Welcome to My Personal Website</h1>
+                <p class="white-text"> Welcome to My Website!
+                    Hi, I’m Harold Mark C. Hugo, a passionate individual currently pursuing a Bachelor of Science in Information Technology at Quezon City University. Fresh out of high school and diving deep into the tech world, I’m on a journey to learn, grow, and build innovative solutions.
+
+                    When I’m not busy coding or exploring new tech trends, you’ll likely find me enjoying my hobbies—playing online games, hitting the badminton courts, or discovering new places. This website is my way of sharing my experiences, interests, and the projects I’m working on as I navigate through the IT world.
+                    
+                    Let’s connect and explore the world of technology together!
+                    </p>
+                    </div>
+            </section>
+    
+            <!-- Gallery Section -->
+            <section id="gallery" class="section">
+                <h1 class="white-text">My Gallery</h1>
+                <div class="gallery" class=".text-box">
+                    <img src="image1.jpg.jpeg" alt="Image 1">
+                    <img src="image2.jpg.jpg" alt="Image 2">
+                    <img src="image3.jpg.jpg" alt="Image 3">
+                    <img src="image4.jpg.jpg" alt="Image 4">
+                    <img src="image5.jpg.jpeg" alt="image 5">
+                    <img src="image6.jpg.jpeg" alt="image 6">
+                </div>
+                <video width="320" height="240" controls>
+                    <source src="video.mp4" type="video/mp4">
+                  </video>
+            </section>
+    
+            <!-- About Me Section -->
+            <section id="about" class="section">
+                <div  class="text-box"> 
+                <h1 class="white-text">About Me</h1>
+                <p class="white-text"> Hello! I’m Harold Mark C. Hugo, a recent high school graduate and a proud student at Quezon City University, pursuing a Bachelor of Science in Information Technology (BSIT). This next phase of my academic journey excites me as I dive deep into the world of technology, which has always fascinated me. I’ve chosen IT because it’s a dynamic and ever-evolving field that blends innovation with problem-solving, and I believe it holds endless growth opportunities. Technology is integral to almost every aspect of modern life, and I’m eager to learn the skills and knowledge that will allow me to contribute to shaping the future.</p>
+              <br>
+                <p2 class="white-text"> Being a student in this field, I’m particularly interested in areas like software development, network systems, and cybersecurity, which I’m excited to explore further. The thought of creating software applications or securing data from threats excites me, and I’m looking forward to honing my programming skills, learning about emerging technologies, and collaborating with like-minded peers on various projects. </p2> <br>
+              <br>
+                <p3 class="white-text"> Outside of academics, I make sure to balance my life with some fun and relaxation through my hobbies. One of my favorite pastimes is playing online games. Gaming is not only entertaining for me but also a way to connect with friends and meet new people from different parts of the world. It’s interesting how gaming has its own culture and community, where people share their passion, strategies, and experiences. It’s also a great way for me to unwind and take a break from the demands of schoolwork </p3> <br>
+              <br>
+                <p4 class="white-text"> Another hobby of mine is exploring new places with friends. Whether it’s discovering hidden gems in the city, visiting local tourist spots, or simply hanging out at a new café, I enjoy the experience of exploring new environments. Traveling with friends allows me to create lasting memories, experience different cultures, and take a break from the busy routine of school. These outings help keep me refreshed, motivated, and excited to tackle the challenges that come with being a student. </p4> <br>
+              <br>
+                <p5 class="white-text"> As I continue my journey at Quezon City University, I’m looking forward to gaining more knowledge in IT and developing the skills needed to thrive in the tech industry. My goal is to become well-versed in various aspects of information technology, whether that’s coding, system administration, or cybersecurity. The world of IT is vast, and I’m eager to explore its many opportunities. </p5> <br>
+              <br>
+                <p6 class="white-text"> Despite the demands of studying, I always make time for my hobbies. They not only help me maintain a healthy balance between school and personal life but also contribute to my personal growth. Whether it’s the strategic thinking from gaming, the discipline and physical coordination from badminton, or the joy of exploration when I’m out with friends, I believe all these experiences contribute to who I am today and who I aspire to become in the future. </p6> <br>
+              <br>
+                <p7 class="white-text"> With a passion for learning and a love for technology, I am excited about what lies ahead as I continue to grow both personally and professionally at Quezon City University. </p7>
+            </section>
+        </main>
+    </div>
+        <script src="scripts.js"></script>
+    
+
+        <!-- Form Section -->
+        <section id="form" class="section">
+            <div class="comment-form">
+                <h2 class="white-text">Leave a Comment</h2>
+                <form action="#" method="post">
+                    <label for="name" class="white-text">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your name" required>
+        
+                    <label for="email" class="white-text">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Your email" required>
+        
+                    <label for="comment" class="white-text">Comment</label>
+                    <textarea id="comment" name="comment" placeholder="Write your comment here..." rows="4" required></textarea>
+        
+                    <input type="submit" value="Submit Comment">
+                </form>
+            </div>
+
+        </section>
+
+
+        <!-- Footer Section -->
+    <footer>
+        <div class="footer-container" class="social-icon">
+            <p>Connect with me on social media:</p>
+                <a href="https://www.instagram.com/" target="_blank">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+                <a href="https://www.facebook.com/haroldmark.hugo/">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+                <a href="https://www.youtube.com/">
+
+                    <ion-icon name="logo-youtube"></ion-icon>
+                </a>
+        </div>
+    </footer>
+        
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    </body>
+    </html>
+    
